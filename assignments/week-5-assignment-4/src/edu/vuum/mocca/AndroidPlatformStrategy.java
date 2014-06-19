@@ -18,7 +18,7 @@ import android.util.Log;
 public class AndroidPlatformStrategy extends PlatformStrategy
 {	
     /** TextViewVariable. */
-    private TextView mTextViewOutput;
+    private TextView mTextViewOutput
 	
     /** Activity variable finds gui widgets by view. */
     private WeakReference<Activity> mActivity;
